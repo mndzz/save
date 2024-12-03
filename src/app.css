@@ -1,0 +1,90 @@
+body{
+  background-color: #99c2ff!important;
+  color: black;
+  text-align: center;
+  margin: auto;
+}
+
+.div1{
+  padding: 50px;
+  text-align: center;
+}
+
+.login-container {
+  background-color: #fff4de;
+  text-align: center;
+  max-width: 10000px;
+  margin: auto;
+  padding: 100px;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #ffe6cc;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+button:hover {
+  border-color: #646cff;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+input {
+  display: inline-block;
+  padding: 8px;
+  margin-top: 5px;
+  width: 300px;
+}
+
+.card {
+  padding: 2em;
+  border: 1px solid #ccc;
+}
+
+td, th, tr {
+  padding: 5px;
+  text-align: left;
+}
+
+body {
+  margin: 0;
+  display: inline;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.form-container {
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.status {
+  padding: 10px;
+  font-weight: bold;
+  color: white;
+}
+
+.ativo {
+  background-color: green;
+}
+
+.inativo {
+  background-color: red;
+}
+
+.em-manutencao {
+  background-color: orange;
+}
